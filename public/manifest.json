@@ -1,0 +1,99 @@
+{
+  "name": "VidDL - Free Social Media Video Downloader",
+  "short_name": "VidDL",
+  "description": "Download videos from YouTube, Instagram, TikTok, Facebook, Twitter, Pinterest, and CapCut. Fast, free, and secure.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "utilities", "multimedia"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "VidDL Desktop Interface"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "VidDL Mobile Interface"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Download Video",
+      "short_name": "Download",
+      "description": "Quickly download a video",
+      "url": "/#download",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "YouTube Downloader",
+      "short_name": "YouTube",
+      "description": "Download YouTube videos",
+      "url": "/youtube-downloader",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Instagram Downloader",
+      "short_name": "Instagram",
+      "description": "Download Instagram videos",
+      "url": "/instagram-downloader",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "TikTok Downloader",
+      "short_name": "TikTok",
+      "description": "Download TikTok videos",
+      "url": "/tiktok-downloader",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

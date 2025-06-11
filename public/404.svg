@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="128" cy="128" r="120" fill="#F3F4F6" class="dark:fill-gray-800"/>
+  
+  <!-- 404 Text -->
+  <text x="128" y="140" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#6366F1">404</text>
+  
+  <!-- Decorative Elements -->
+  <path d="M64 96C64 78.33 78.33 64 96 64H160C177.67 64 192 78.33 192 96V160C192 177.67 177.67 192 160 192H96C78.33 192 64 177.67 64 160V96Z" stroke="#6366F1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative Dots -->
+  <circle cx="96" cy="96" r="8" fill="#6366F1"/>
+  <circle cx="160" cy="96" r="8" fill="#6366F1"/>
+  <circle cx="96" cy="160" r="8" fill="#6366F1"/>
+  <circle cx="160" cy="160" r="8" fill="#6366F1"/>
+  
+  <!-- Decorative Lines -->
+  <path d="M96 128H160" stroke="#6366F1" stroke-width="4" stroke-linecap="round"/>
+  <path d="M128 96V160" stroke="#6366F1" stroke-width="4" stroke-linecap="round"/>
+</svg> 
