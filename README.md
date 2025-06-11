@@ -1,7 +1,7 @@
 # VidDL - Ultimate Social Media Video Downloader 🚀
 
 <div align="center">
-  <img src="public/og-image.jpg" alt="VidDL Logo" width="200"/>
+  <img src="public/icon.png" alt="VidDL Logo" width="200"/>
   
   [![Platforms](https://img.shields.io/badge/platforms-6-blue.svg)](https://viddl.com)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
