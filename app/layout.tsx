@@ -11,6 +11,7 @@ import Script from 'next/script';
 import { Suspense } from 'react';
 import { Toaster } from 'sonner';
 import './globals.css';
+import LayoutWrapper from '@/components/sections/LayoutWrapper';
 
 const quicksand = Quicksand({
   subsets: ['latin'],
@@ -168,6 +169,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -187,31 +189,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd />
       </head>
       <body className={quicksand.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <LanguageProvider>
-            <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-              <Header />
-              <Suspense
-                fallback={
-                  <div className="min-h-[60vh] flex items-center justify-center">
-                    <div className="animate-spin rounded-full h-12 w-12 border-4 border-indigo-200 border-t-indigo-600 dark:border-indigo-900 dark:border-t-indigo-400" />
-                  </div>
-                }
-              >
-                {children}
-                <SpeedInsights />
-                <Analytics />
-              </Suspense>
-              <Footer />
-            </div>
-          </LanguageProvider>
-        </ThemeProvider>
-        <Toaster position="top-center" />
+      <LayoutWrapper>{children}</LayoutWrapper>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-N4DYR5H19Y"
           strategy="afterInteractive"
